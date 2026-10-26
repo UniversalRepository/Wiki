@@ -12,7 +12,7 @@ Add this to the end of `/etc/pacman.conf`:
 ```ini
 [universalrepository]
 SigLevel = Required TrustedOnly
-Server = https://sourceforge.net/projects/universalrepository/files/arch/
+Server = https://universalrepo.pages.dev/arch/
 ```
 
 ## 2. Import the key and sync

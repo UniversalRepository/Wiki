@@ -8,7 +8,7 @@ order: 2
 ## 1. Add the repository
 
 ```sh
-echo 'repository=https://sourceforge.net/projects/universalrepository/files/void' | sudo tee /etc/xbps.d/10-universalrepository.conf
+echo 'repository=https://universalrepo.pages.dev/void' | sudo tee /etc/xbps.d/10-universalrepository.conf
 ```
 
 ## 2. Sync and import the key
