@@ -27,10 +27,11 @@ The first build can take a while. Later rebuilds reuse cached layers.
 
 Builds sign their output, so you need a key for each distribution.
 
-| Distribution | Signing key     | Key format                                          |
-| ------------ | --------------- | --------------------------------------------------- |
-| Void         | `keys/void.pem` | RSA private key in PEM format                       |
-| Arch         | `keys/arch.key` | OpenPGP private key export, ASCII armored or binary |
+| Distribution | Signing key        | Key format                                          |
+| ------------ | ------------------ | --------------------------------------------------- |
+| Void         | `keys/void.pem`    | RSA private key in PEM format                       |
+| Arch         | `keys/arch.key`    | OpenPGP private key export, ASCII armored or binary |
+| Chimera      | `keys/chimera.rsa` | RSA unencrypted private key in PEM format           |
 
 ## 3. Build packages
 
