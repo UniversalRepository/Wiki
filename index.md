@@ -22,6 +22,6 @@ Currently only `x86_64` targets are supported.
 
 ## Where to go next
 
-- To use the repository, follow the install guide for your distribution: [Arch Linux](/wiki/install/arch) or [Void Linux](/wiki/install/void).
+- To use the repository, follow the install guide for your distribution.
 - To build a package yourself, see [Building natively](/wiki/build/native) or [Building in a container](/wiki/build/container).
 - To help out, read [Contributing](/wiki/contribute).
