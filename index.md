@@ -17,8 +17,9 @@ Currently only `x86_64` targets are supported.
 | ------------------ | ------------------------------ | ------------- | ---------- | ----------- |
 | Arch Linux         | `arch/pkgs`                    | `PKGBUILD`    | `makepkg`  | Supported   |
 | Void Linux (glibc) | `void/srcpkgs`                 | `template`    | `xbps-src` | Supported   |
-| Fedora / openSUSE  | `rpm/specs`                    | `SPEC`        | `rpmbuild` | In progress |
+| Alpine Linux edge  | `alpine/main`, `alpine/community`, `alpine/testing` | `APKBUILD` | `abuild rootbld` | Supported |
 | Chimera Linux      | `chimera/main`, `chimera/user` | `template.py` | `cbuild`   | Supported   |
+| Fedora / openSUSE  | `rpm/specs`                    | `SPEC`        | `rpmbuild` | In progress |
 
 ## Where to go next
 
